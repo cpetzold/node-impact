@@ -1,7 +1,7 @@
 { "name" : "impact"
 , "description" : "nodejs backend for impactjs (http://impactjs.com)"
 , "author" : "Conner Petzold <cpetzold@gmail.com>"
-, "version" : "0.0.1"
+, "version" : "0.0.2"
 , "main" : "./lib"
 , "dependencies" : {
     "express": ">= 1.0.2"
