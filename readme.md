@@ -11,21 +11,21 @@ The node-impact module allows impact to run on a node http server.  It binds to 
 
 Here is a sample server.js (inlcuded in a directory with the impact game in /public):
 
-  var express = require('express'),
-      impact = require('impact');
+    var express = require('express'),
+        impact = require('impact');
       
-  var server = express.createServer();
+    var server = express.createServer();
 
-  server.configure(function(){
-      server.use(express.methodOverride());
-      server.use(express.bodyDecoder());
-      server.use(server.router);
-      server.use(express.staticProvider(__dirname + '/public'));
-  });
+    server.configure(function(){
+        server.use(express.methodOverride());
+        server.use(express.bodyDecoder());
+        server.use(server.router);
+        server.use(express.staticProvider(__dirname + '/public'));
+    });
 
-  server.get('/', function(req, res){
-    res.send('hello world');
-  });
+    server.get('/', function(req, res){
+      res.send('hello world');
+    });
 
-  impact.listen(server);
-  server.listen(8080);
+    impact.listen(server);
+    server.listen(8080);
