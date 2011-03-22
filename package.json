@@ -1,10 +1,14 @@
 { "name" : "impact"
 , "description" : "nodejs backend for impactjs (http://impactjs.com)"
 , "author" : "Conner Petzold <cpetzold@gmail.com>"
-, "version" : "0.0.3"
+, "version" : "0.1.0"
 , "main" : "./lib"
-, "dependencies" : {
-    "express": ">= 1.0.2"
-  , "glob": ">= 1.1.0"
+, "dependencies" : 
+  { "express": "2.0.0"
+  , "glob": "2.0.6"
+  }
+, "engines" : 
+  { "node" : "0.4"
+  , "npm": "1"
   }
 }
