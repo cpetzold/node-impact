@@ -1,5 +1,5 @@
 {
-  "name": "impact",
+  "name": "impact-fork",
   "description": "nodejs backend for impactjs (http://impactjs.com)",
   "author": "Conner Petzold <cpetzold@gmail.com>",
   "version": "0.1.1",
