@@ -1,5 +1,5 @@
 var express = require('express'),
-    impact = require('impact');
+    impact = require('impact-fork');
   
 var server = express.createServer();
 
