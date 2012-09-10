@@ -19,10 +19,10 @@ This will set up the following Weltmeister api routes (of which need to be chang
 
 The game directory is an incomplete example version of an impact game. To use impact, you will need to:
 
-Copy the tools/, media/ and lib/ directories from impact.js library into game/public/
+1. Copy the tools/, media/ and lib/ directories from impact.js library into game/public/
 
 Your new folder structure will look like this:
--node-impact
+<pre>-node-impact
 |-game
  |-public
   |-css
@@ -39,12 +39,12 @@ Your new folder structure will look like this:
  |-index.js
  |-weltmeister.js
 |-package.json
-|-readme.md (this file)
+|-readme.md (this file)</pre>
 
-*Open up a terminal and move into the node-impact/game directory
-*Issue the command "node server.js"
-*Open a web browser and browse to "http://localhost:8080/"
-*If you are starting with a fresh copy of impact, you will simpley see a black square with the words "It Works!" inside
+2. Open up a terminal and move into the node-impact/game directory
+3. Issue the command "node server.js"
+4. Open a web browser and browse to "http://localhost:8080/"
+5. If you are starting with a fresh copy of impact, you will simpley see a black square with the words "It Works!" inside
 
 
     
