@@ -5,12 +5,12 @@
   "version": "0.1.1",
   "main": "./lib",
   "dependencies": {
-    "express": "2.0.0",
-    "glob": "2.0.9"
+    "express": ">= 2.0.0",
+    "glob": ">= 2.0.9"
   },
   "engines": {
-    "node": "0.4",
-    "npm": "1"
+    "node": ">= 0.4",
+    "npm": ">= 1"
   },
   "devDependencies": {}
 }
