@@ -41,10 +41,10 @@ Your new folder structure will look like this:
 |-package.json
 |-readme.md (this file)
 
-Open up a terminal and move into the node-impact/game directory
-Issue the command "node server.js"
-Open a web browser and browse to "http://localhost:8080/"
-If you are starting with a fresh copy of impact, you will simpley see a black square with the words "It Works!" inside
+*Open up a terminal and move into the node-impact/game directory
+*Issue the command "node server.js"
+*Open a web browser and browse to "http://localhost:8080/"
+*If you are starting with a fresh copy of impact, you will simpley see a black square with the words "It Works!" inside
 
 
     
