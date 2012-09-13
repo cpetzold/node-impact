@@ -2,8 +2,26 @@
   "name": "impact-fork",
   "description": "nodejs backend for impactjs (http://impactjs.com)",
   "author": "Conner Petzold <cpetzold@gmail.com>",
-  "version": "0.1.1",
+  "contributors": [
+    {
+      "name": "Christopher McCulloh",
+      "email": "cmcculloh@gmail.com"
+    }
+  ],
+  "version": "0.2.0",
   "main": "./lib",
+  "scripts":{
+    "start":"node ./game/server.js"
+  },
+  "keywords": [
+    "impactjs",
+    "impact",
+    "game"
+  ],
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/cmcculloh/node-impact"
+  },
   "dependencies": {
     "express": ">= 2.0.0",
     "glob": ">= 2.0.9",

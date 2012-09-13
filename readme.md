@@ -6,7 +6,7 @@ node-impact
 3. Issue the command: npm install impact-fork
 4. Copy "tools", "media" and "lib" directories from impact.js into node_modules/impact-fork/game/public (get impact.js here: http://impactjs.com/)
 5. Move into the node_modules/impact-fork/game/ directory
-6. Run the command: node server.js (You should immediately see some output saying "WE ARE LISTENING ON PORT 8080")
+6. Run the command: node server.js (You should immediately see some output saying "app listening on port 8080")
 7. Open a web browser and browse to "http://localhost:8080/"
 8. If you are starting with a fresh copy of impact, you will simply see a black square with the words "It Works!" inside
 
