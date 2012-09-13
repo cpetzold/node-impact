@@ -6,7 +6,8 @@
   "main": "./lib",
   "dependencies": {
     "express": ">= 2.0.0",
-    "glob": ">= 2.0.9"
+    "glob": ">= 2.0.9",
+    "jade": ">= 0.27.2"
   },
   "engines": {
     "node": ">= 0.4",
