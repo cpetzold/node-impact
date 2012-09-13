@@ -1,6 +1,8 @@
 node-impact
 ===========
 
+Initial Setup
+-----------
 1. Create the folder that you want impact to be installed into for your game
 2. Move into that folder from the terminal
 3. Issue the command: npm install impact-fork
@@ -11,7 +13,11 @@ node-impact
 8. If you are starting with a fresh copy of impact, you will simply see a black square with the words "It Works!" inside
 
 
+Update
+----------
+Periodically, you should check for updates to the library. To do this (and update), just issue the command:
 
+npm update impact-fork
 
 
 
