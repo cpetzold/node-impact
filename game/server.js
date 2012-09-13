@@ -1,22 +1,24 @@
 var express = require('express'),
     impact = require('impact-fork');
-  
-var server = express.createServer();
+    port = 8080,
+    app = express();
 
-server.configure(function(){
-  server.set('views', __dirname + '/views');
-  server.use(express.methodOverride());
-  server.use(express.bodyParser());
-  server.use(server.router);
+app.configure(function(){
+  app.set('views', __dirname + '/views');
+  app.use(express.methodOverride());
+  app.use(express.bodyParser());
+  app.use(app.router);
 });
 
-server.get('/', function(req, res){
+app.get('/', function(req, res){
   res.render('index.jade', {
     locals: { title: 'Example node-impact server' }
   });
 });
 
-var im = impact.listen(server, { root: __dirname + '/public' });
-server.use(express.static(im.root));
+var im = impact.listen(app, { root: __dirname + '/public' });
+app.use(express.static(im.root));
 
-server.listen(8080);
+app.listen(port);
+
+console.log('app listening on port', port);
